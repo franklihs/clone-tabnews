@@ -1,6 +1,6 @@
 function listaDeObjetivos() {
   return <h1> - [ ] Aprender a programar.</h1>;
-  return <h1> - [ ] Me tornar um programador e trabalhar com programação.</h1>;
+  return <h2> - [ ] Me tornar um programador e trabalhar com programação.</h2>;
   return (
     <h1>
       {" "}
