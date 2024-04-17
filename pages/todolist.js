@@ -6,7 +6,8 @@ function newTask() {
   let input = document.getElementById("text_entry");
 
   if (!input.value) {
-    alert("Digite algo para ineserir à lista");
+    prompt("Digite algo para ineserir à lista");
+    showValues();
   } else {
     let valuesList = JSON.parse(localStorage.getItem(localStorageKey) || "[]");
     valuesList.push({
