@@ -46,7 +46,6 @@ function toDoList() {
           ></input>
           {task} <button onClick={newTask}> + </button>
         </p>
-        <button onClick={addTask}> v </button>
       </div>
       <div>
         <lo id="todo_list_view"></lo>
