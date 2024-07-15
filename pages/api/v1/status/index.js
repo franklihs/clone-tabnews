@@ -1,6 +1,4 @@
 import database from "infra/database.js";
-import { handleSmoothScroll } from "next/dist/shared/lib/router/router";
-import { Query } from "pg";
 
 async function status(request, response) {
   const updatedAt = new Date().toISOString();
