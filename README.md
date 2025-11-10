@@ -1,3 +1,3 @@
 # clone-tabnews
 
-Um projeto para clonar o tabnews.com.br para o curso.dev
+Um projeto para reproduzir o tabnews.com.br durante o curso.dev
